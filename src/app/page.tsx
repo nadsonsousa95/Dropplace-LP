@@ -27,10 +27,10 @@ export default function HomePage() {
             <Image src={logo} alt="Dropplace Logo" width={240} height={240} />
           </div>
           <nav className="text-white mt-2">
-            <a href="#solucoes" className="mx-4 hover:text-[#ef7d00] transition-colors">Soluções</a>
-            <a href="#sobre" className="mx-4 hover:text-[#ef7d00] transition-colors">Clientes</a>
-            <a href="#valores" className="mx-4 hover:text-[#ef7d00] transition-colors">Sobre Nós</a>
-            <a href="#contato" className="mx-4 hover:text-[#ef7d00] transition-colors">Contato</a>
+            <a href="#solucoes" className="mx-3 hover:text-[#ef7d00] transition-colors active:text-[#ef7d00] focus:text-[#ef7d00]">Soluções</a>
+            <a href="#sobre" className="mx-3 hover:text-[#ef7d00] transition-colors active:text-[#ef7d00] focus:text-[#ef7d00]">Clientes</a>
+            <a href="#valores" className="mx-3 hover:text-[#ef7d00] transition-colors active:text-[#ef7d00] focus:text-[#ef7d00]">Sobre Nós</a>
+            <a href="#contato" className="mx-3 hover:text-[#ef7d00] transition-colors active:text-[#ef7d00] focus:text-[#ef7d00]">Contato</a>
           </nav>
           <div className="relative z- mx-auto mt-10">
              <h1 className="font-poppins text-5xl mt-12"><span className="font-bold">Soluções logísticas</span> com a sua identidade!</h1>

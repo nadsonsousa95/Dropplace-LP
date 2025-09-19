@@ -51,21 +51,21 @@ export default function HomePage() {
       <section className="bg-white text-[#0349ad] py-20 px-5 text-center">
         <h2 className="font-poppins text-3xl font-bold">Nossas Vantagens</h2>
         <div className="flex justify-center flex-wrap mt-10 gap-8">
-          <div className="max-w-xs shadow-lg p-6 rounded-lg border gap-1 flex flex-col justify-center items-center border-gray-200">
+          <div className="max-w-xs shadow-lg p-6 rounded-lg border gap-1 flex flex-col justify-center items-center border-gray-200 transition-transform hover:scale-105 duration-400">
             <div className="bg-[#0349ad] text-white p-2 rounded-md mb-2">
               <MdViewModule size={30} />
             </div>
             <h3 className="font-poppins text-[#0349ad] font-bold text-xl">Modularidade</h3>
             <p className="font-quicksand text-[#909091] mt-2">Nossa plataforma se adapta às necessidades específicas de cada cliente, oferecendo soluções personalizadas e escaláveis.</p>
           </div>
-          <div className="max-w-xs shadow-lg p-6 rounded-lg border gap-1 flex flex-col justify-center items-center border-gray-200">
+          <div className="max-w-xs shadow-lg p-6 rounded-lg border gap-1 flex flex-col justify-center items-center border-gray-200 transition-transform hover:scale-105 duration-400">
             <div className="bg-[#ef7d00] text-white p-2 rounded-md mb-2">
               <MdOutlineConnectWithoutContact size={30} />
             </div>
             <h3 className="font-poppins text-[#0349ad] font-bold text-xl">Conectividade</h3>
             <p className="font-quicksand text-[#909091] mt-2">Integração eficiente entre diferentes sistemas e processos logísticos, facilitando a comunicação e o fluxo de informações.</p>
           </div>
-          <div className="max-w-xs shadow-lg p-6 rounded-lg border gap-1 flex flex-col justify-center items-center border-gray-200">
+          <div className="max-w-xs shadow-lg p-6 rounded-lg border gap-1 flex flex-col justify-center items-center border-gray-200 transition-transform hover:scale-105 duration-400">
             <div className="bg-[#467ecb] text-white p-3 rounded-md mb-2">
               <FaPaintRoller size={25} />
             </div>
@@ -77,21 +77,21 @@ export default function HomePage() {
 
       <section id="valores" className="bg-gradient-to-r from-[#0349ad] to-[#043f93] text-white py-20 flex flex-col gap-8 px-5 text-center">
         <div>
-          <h3 className="font-poppins font-bold text-2xl mt-5">Visão</h3>
-          <p className="font-quicksand max-w-4xl mx-auto mt-2 leading-relaxed">Ser uma plataforma white label consolidada que transforma a logística com soluções flexíveis, inovadoras e acessíveis, empoderando clientes e construindo um futuro de crescimento impulsionado por logística eficiente.</p>
+          <h3 className="font font-bold text-2xl mt-5">Visão</h3>
+          <p className="font max-w-4xl mx-auto mt-2 leading-relaxed">Ser uma plataforma white label consolidada que transforma a logística com soluções flexíveis, inovadoras e acessíveis, empoderando clientes e construindo um futuro de crescimento impulsionado por logística eficiente.</p>
         </div>
         <div>
-          <h3 className="font-poppins font-bold text-2xl mt-5">Valores</h3>
-          <div className="font-quicksand mt-5 gap-2 flex flex-wrap justify-center max-w-4xl mx-auto">
-            <span className="font-bold mx-2 border-2 border-[#ef7d00] p-2 rounded-md hover:bg-[#ef7d00] hover:text-white transition-all active:bg-[#914b00] focus:bg-[#914b00]">Empoderamento</span>
-            <span className="font-bold mx-2 border-2 border-[#ef7d00] p-2 rounded-md hover:bg-[#ef7d00] hover:text-white transition-all active:bg-[#914b00] focus:bg-[#914b00]">Integridade</span>
-            <span className="font-bold mx-2 border-2 border-[#ef7d00] p-2 rounded-md hover:bg-[#ef7d00] hover:text-white transition-all active:bg-[#914b00] focus:bg-[#914b00]">Democratização</span>
-            <span className="font-bold mx-2 border-2 border-[#ef7d00] p-2 rounded-md hover:bg-[#ef7d00] hover:text-white transition-all active:bg-[#914b00] focus:bg-[#914b00]">Parceria</span>
-            <span className="font-bold mx-2 border-2 border-[#ef7d00] p-2 rounded-md hover:bg-[#ef7d00] hover:text-white transition-all active:bg-[#914b00] focus:bg-[#914b00]">Qualidade</span>
-            <span className="font-bold mx-2 border-2 border-[#ef7d00] p-2 rounded-md hover:bg-[#ef7d00] hover:text-white transition-all active:bg-[#914b00] focus:bg-[#914b00]">Flexibilidade</span>
-            <span className="font-bold mx-2 border-2 border-[#ef7d00] p-2 rounded-md hover:bg-[#ef7d00] hover:text-white transition-all active:bg-[#914b00] focus:bg-[#914b00]">Colaboração</span>
-            <span className="font-bold mx-2 border-2 border-[#ef7d00] p-2 rounded-md hover:bg-[#ef7d00] hover:text-white transition-all active:bg-[#914b00] focus:bg-[#914b00]">Transparência</span>
-            <span className="font-bold mx-2 border-2 border-[#ef7d00] p-2 rounded-md hover:bg-[#ef7d00] hover:text-white transition-all active:bg-[#914b00] focus:bg-[#914b00]">Inovação</span>
+          <h3 className="font font-bold text-2xl mt-5">Valores</h3>
+          <div className="font mt-5 gap-2 flex flex-wrap justify-center max-w-4xl mx-auto">
+            <span className="font-bold m-2 border-2 border-[#ef7d00] p-2 rounded-md bg-[#ef7d00] hover:text-white transition-all active:bg-[#914b00] focus:bg-[#914b00]">Empoderamento</span>
+            <span className="font-bold m-2 border-2 border-[#ef7d00] p-2 rounded-md bg-[#ef7d00] hover:text-white transition-all active:bg-[#914b00] focus:bg-[#914b00]">Integridade</span>
+            <span className="font-bold m-2 border-2 border-[#ef7d00] p-2 rounded-md bg-[#ef7d00] hover:text-white transition-all active:bg-[#914b00] focus:bg-[#914b00]">Democratização</span>
+            <span className="font-bold m-2 border-2 border-[#ef7d00] p-2 rounded-md bg-[#ef7d00] hover:text-white transition-all active:bg-[#914b00] focus:bg-[#914b00]">Parceria</span>
+            <span className="font-bold m-2 border-2 border-[#ef7d00] p-2 rounded-md bg-[#ef7d00] hover:text-white transition-all active:bg-[#914b00] focus:bg-[#914b00]">Qualidade</span>
+            <span className="font-bold m-2 border-2 border-[#ef7d00] p-2 rounded-md bg-[#ef7d00] hover:text-white transition-all active:bg-[#914b00] focus:bg-[#914b00]">Flexibilidade</span>
+            <span className="font-bold m-2 border-2 border-[#ef7d00] p-2 rounded-md bg-[#ef7d00] hover:text-white transition-all active:bg-[#914b00] focus:bg-[#914b00]">Colaboração</span>
+            <span className="font-bold m-2 border-2 border-[#ef7d00] p-2 rounded-md bg-[#ef7d00] hover:text-white transition-all active:bg-[#914b00] focus:bg-[#914b00]">Transparência</span>
+            <span className="font-bold m-2 border-2 border-[#ef7d00] p-2 rounded-md bg-[#ef7d00] hover:text-white transition-all active:bg-[#914b00] focus:bg-[#914b00]">Inovação</span>
           </div>
         </div>
         <div>
@@ -104,7 +104,7 @@ export default function HomePage() {
         <Image src={logobgWhite} className="mb-10" alt="Dropplace Logo" width={240} height={240} />
         <h2 className="font-poppins text-4xl font-bold">Pronto para transformar sua logística?</h2>
         <p className="font-quicksand text-lg mt-4">Entre em contato e descubra como a Dropplace pode impulsionar o crescimento da sua empresa.</p>
-        <a href="https://w.app/dropplace-startup" className="bg-[#ef7d00] text-white font-poppins font-bold py-4 px-8 rounded-md inline-block mt-8 transition-transform transform hover:scale-105 active:bg-[#914b00] focus:bg-[#914b00]">Fale com um especialista</a>
+        <a href="https://w.app/dropplace-startup" className="bg-[#ef7d00] text-white font-poppins font-bold py-4 px-8 rounded-md inline-block mt-8 transition-all transform hover:scale-105 active:scale-105 hover:bg-[#914b00] active:bg-[#914b00] focus:bg-[#914b00]">Fale com um especialista</a>
       </section>
 
       <footer className="bg-black text-white py-10 px-5 text-center">

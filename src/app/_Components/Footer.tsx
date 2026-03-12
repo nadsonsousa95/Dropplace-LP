@@ -27,7 +27,7 @@ export default function Footer() {
           <p className="font-quicksand text-sm text-gray-300 mb-3">
             Pronto para transformar sua operação?
           </p>
-          <a href={process.env.NEXT_PUBLIC_WHATSAPP_LINK || "https://w.app/dropplace-startup"} target="_blank" rel="noopener noreferrer" className="inline-block bg-[#ef7d00] text-white font-bold py-2 px-6 rounded hover:bg-[#914b00] transition-colors text-sm">
+          <a href={process.env.NEXT_PUBLIC_WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="inline-block bg-[#ef7d00] text-white font-bold py-2 px-6 rounded hover:bg-[#914b00] transition-colors text-sm">
             Fale Conosco
           </a>
         </div>

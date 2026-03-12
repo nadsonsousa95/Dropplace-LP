@@ -89,9 +89,9 @@ Somos uma equipe jovem e multidisciplinar formada durante um programa de residê
 
 Reunimos competências em front-end, back-end, UI/UX e arquitetura de software, o que nos permite construir e evoluir soluções digitais de forma autônoma e contínua.<br></br>
 
-Embora sediados em Salvador, muitos integrantes da equipe vivenciaram a falta de soluções de delivery e logística em cidades pequenas e médias da Bahia. Essa experiência motivou a criação de uma plataforma white label, pensada para atender PMEs, cooperativas e iniciativas locais.
+Embora sediados em Salvador, muitos integrantes da equipe vivenciaram a falta de soluções de delivery e logística em cidades pequenas e médias da Bahia. Essa experiência motivou a criação de uma plataforma white label, pensada para atender <strong>PMEs, cooperativas e iniciativas locais.</strong>
 
-Atualmente, avançamos na validação de mercado com parcerias em desenvolvimento, incluindo uma cooperativa de motoboys e a startup de impacto social Traz Favela.              </p>
+Atualmente, avançamos na validação de mercado com parcerias em desenvolvimento, incluindo uma <strong>cooperativa de motoboys</strong> e a startup de impacto social <strong>Traz Favela.</strong>             </p>
             <button data-aos="flip-up" data-aos-delay="400" 
             className="bg-[#0349ad] cursor-pointer text-white flex items-center justify-center font-poppins font-bold py-4 px-8 rounded-md md:text-left text-center mt-8 transition-transform transform hover:scale-105 active:bg-[#914b00] focus:bg-[#914b00]" 
             onClick={() => window.location.href = "https://w.app/dropplace-startup"}>Entre em contato!</button>

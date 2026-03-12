@@ -47,8 +47,8 @@ export default function HomePage() {
       </section>
 
       <section id="solucoes" className="bg-[#0349ad] text-white py-20 px-5 text-center flex flex-col items-center">
-        <Image data-aos="zoom-in" src={logo} className="mb-8" alt="Dropplace aplicações" width={300} height={300} />
-        <Image data-aos="fade-up" data-aos-delay="200" src={applications} alt="Dropplace aplicações" width={800} height={800} />
+        <Image data-aos="zoom-in" src={logo} className="mb-8 w-full max-w-[300px] h-auto" alt="Dropplace aplicações" width={300} height={300} />
+        <Image data-aos="fade-up" data-aos-delay="200" src={applications} className="w-full max-w-[800px] h-auto" alt="Dropplace aplicações" width={800} height={800} />
         <h2 data-aos="fade-up" className="font-poppins text-3xl font-bold mt-8">Plataforma Whitelabel para o seu negócio</h2>
         <p data-aos="fade-up" data-aos-delay="200" className="font-quicksand max-w-4xl mx-auto mt-5 leading-relaxed">A Dropplace oferece <strong>soluções white label</strong> em logística e entregas, permitindo que empresas tenham seus próprios aplicativos com identidade personalizada. Desenvolvemos plataformas completas, escaláveis e flexíveis, adaptadas às necessidades de cada negócio. Nosso objetivo é democratizar o acesso à tecnologia logística, entregando eficiência, controle e autonomia para marcas que desejam inovar e crescer com sua própria cara.</p>
         <a data-aos="flip-up" data-aos-delay="400" href="#contato" className="bg-white text-[#0349ad] font-poppins font-bold py-4 px-8 rounded-md inline-block mt-8 transition-transform transform hover:scale-105 active:bg-gray-200 focus:bg-gray-200">Fale com um especialista</a>
@@ -93,15 +93,15 @@ Embora sediados em Salvador, muitos integrantes da equipe vivenciaram a falta de
 
 Atualmente, avançamos na validação de mercado com parcerias em desenvolvimento, incluindo uma <strong>cooperativa de motoboys</strong> e a startup de impacto social <strong>Traz Favela.</strong>             </p>
             <button data-aos="flip-up" data-aos-delay="400" 
-            className="bg-[#0349ad] cursor-pointer text-white flex items-center justify-center font-poppins font-bold py-4 px-8 rounded-md md:text-left text-center mt-8 transition-transform transform hover:scale-105 active:bg-[#914b00] focus:bg-[#914b00]" 
-            onClick={() => window.open(process.env.NEXT_PUBLIC_WHATSAPP_LINK, "_blank")}>Entre em contato!</button>
+            className="bg-[#0349ad] cursor-pointer text-white flex items-center justify-center font-poppins font-bold py-4 px-8 rounded-md md:text-left text-center mt-8 transition-transform transform hover:scale-105 active:bg-[#914b00] focus:bg-[#914b00] mx-auto md:mx-0" 
+            onClick={() => window.open(process.env.NEXT_PUBLIC_WHATSAPP_LINK || "https://w.app/dropplace-startup", "_blank")}>Entre em contato!</button>
         </div>
-        <div className="w-full md:w-1/2 max-w-lg w-full" data-aos="fade-left">
+        <div className="w-full md:w-1/2 max-w-lg" data-aos="fade-left">
           <Carousel />
         </div>
       </section>
 
-      <section id="valores" className="bg-white] text-[#909091] py-20 flex flex-col gap-8 px-5 text-center">
+      <section id="valores" className="bg-white text-[#909091] py-20 flex flex-col gap-8 px-5 text-center">
         <div data-aos="fade-right">
           <h3 className="font font-bold text-[#0349ad] text-2xl mt-5">Visão</h3>
           <p className="font max-w-4xl mx-auto mt-2 leading-relaxed">Ser uma plataforma white label consolidada que transforma a logística com soluções flexíveis, inovadoras e acessíveis, empoderando clientes e construindo um futuro de crescimento impulsionado por logística eficiente.</p>

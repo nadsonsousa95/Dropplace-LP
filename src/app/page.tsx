@@ -94,7 +94,7 @@ Embora sediados em Salvador, muitos integrantes da equipe vivenciaram a falta de
 Atualmente, avançamos na validação de mercado com parcerias em desenvolvimento, incluindo uma <strong>cooperativa de motoboys</strong> e a startup de impacto social <strong>Traz Favela.</strong>             </p>
             <button data-aos="flip-up" data-aos-delay="400" 
             className="bg-[#0349ad] cursor-pointer text-white flex items-center justify-center font-poppins font-bold py-4 px-8 rounded-md md:text-left text-center mt-8 transition-transform transform hover:scale-105 active:bg-[#914b00] focus:bg-[#914b00]" 
-            onClick={() => window.location.href = "https://w.app/dropplace-startup"}>Entre em contato!</button>
+            onClick={() => window.open(process.env.NEXT_PUBLIC_WHATSAPP_LINK || "https://w.app/dropplace-startup", "_blank")}>Entre em contato!</button>
         </div>
         <div className="w-full md:w-1/2 max-w-lg w-full" data-aos="fade-left">
           <Carousel />
@@ -130,7 +130,7 @@ Atualmente, avançamos na validação de mercado com parcerias em desenvolviment
         <Image data-aos="zoom-in" src={logobgWhite} className="mb-10" alt="Dropplace Logo" width={240} height={240} />
         <h2 data-aos="fade-up" className="font-poppins text-4xl font-bold">Pronto para transformar sua logística?</h2>
         <p data-aos="fade-up" data-aos-delay="200" className="font-quicksand text-lg mt-4">Entre em contato e descubra como a Dropplace pode impulsionar o crescimento da sua empresa.</p>
-        <a data-aos="zoom-in" data-aos-delay="400" href="https://w.app/dropplace-startup" className="bg-[#ef7d00] shadow-lg text-white font-poppins font-bold py-4 px-8 rounded-md inline-block mt-8 transition-all transform hover:scale-105 active:scale-105 hover:bg-[#914b00] active:bg-[#914b00] focus:bg-[#914b00]">Fale com um especialista</a>
+        <a data-aos="zoom-in" data-aos-delay="400" href={process.env.NEXT_PUBLIC_WHATSAPP_LINK || "https://w.app/dropplace-startup"} target="_blank" rel="noopener noreferrer" className="bg-[#ef7d00] shadow-lg text-white font-poppins font-bold py-4 px-8 rounded-md inline-block mt-8 transition-all transform hover:scale-105 active:scale-105 hover:bg-[#914b00] active:bg-[#914b00] focus:bg-[#914b00]">Fale com um especialista</a>
       </section>
 
       <Footer />

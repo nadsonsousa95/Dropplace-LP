@@ -87,7 +87,7 @@ export default function HomePage() {
             <p data-aos="fade-up" data-aos-delay="200" className="text-center text-[#909091] md:text-left font-quicksand text-base max-w-3xl mx-auto md:mx-0 mt-6 leading-relaxed">
 Somos uma equipe jovem e multidisciplinar formada durante um programa de residência em software promovido pelo CEPEDI no âmbito do <strong>Restic36.</strong> Foi nesse ambiente de prática e inovação que concebemos e desenvolvemos esta plataforma.
 
-Reunimos competências em front-end, back-end, UI/UX e arquitetura de software, o que nos permite construir e evoluir soluções digitais de forma autônoma e contínua.
+Reunimos competências em front-end, back-end, UI/UX e arquitetura de software, o que nos permite construir e evoluir soluções digitais de forma autônoma e contínua.<br></br>
 
 Embora sediados em Salvador, muitos integrantes da equipe vivenciaram a falta de soluções de delivery e logística em cidades pequenas e médias da Bahia. Essa experiência motivou a criação de uma plataforma white label, pensada para atender PMEs, cooperativas e iniciativas locais.
 

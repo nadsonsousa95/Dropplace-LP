@@ -1,5 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation, EffectFade } from "swiper/modules";
+import Image from "next/image";
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -8,15 +9,15 @@ import "swiper/css/effect-fade";
 
 const slides = [
   {
-    image: "/foto-1.jpg",
+    image: "/foto-1.JPG",
     description: "Construa soluções digitais de forma rápida e escalável."
   },
   {
-    image: "/foto-2.jpg",
+    image: "/foto-2.JPG",
     description: "Utilize IA para acelerar processos e inovação."
   },
   {
-    image: "/foto-3.jpg",
+    image: "/foto-3.JPG",
     description: "Arquiteturas modernas para produtos digitais."
   }
 ];
@@ -43,13 +44,15 @@ export default function Carousel() {
             <div className="relative w-full h-[250px] md:h-[350px]">
 
               {/* imagem */}
-              <img
+              <Image
                 src={slide.image}
-                className="absolute inset-0 w-full h-full object-cover"
+                className="object-cover"
+                alt={slide.description}
+                fill
               />
 
               {/* overlay gradiente */}
-              <div className="absolute inset-0 bg-gradient-to-r from-black/40 via-black/20 to-transparent"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-black/20 via-black/10 to-transparent"></div>
 
               {/* conteúdo */}
               <div className="relative z-10 flex h-full items-center px-10 md:px-20">

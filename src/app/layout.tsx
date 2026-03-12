@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Poppins } from "next/font/google";
 import "./globals.css";
-
+import AosInit from "./_Components/AosInit";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -25,8 +25,9 @@ export default function RootLayout({
         <link rel="icon" href="/Logo.png" />
       </head>
       <body
-        className={`${poppins.variable}`}
+        className={`${poppins.variable} overflow-x-hidden`}
       >
+        <AosInit />
         {children}
       </body>
     </html>
